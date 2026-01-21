@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Norse&display=swap">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Norse&display=swap"
+    />
     <link rel="stylesheet" href="../code/style.css" />
     <title>Signup Page</title>
   </head>
@@ -25,15 +28,17 @@
       </div>
     </header>
     <div class="rightSide">
-      <p>
-        This is not a real online service! You know you something like this in
-        your life to help you realize your deepest dreams. Sign up
-        <em>now</em> to get started.
-      </p>
+      <div id="firstChunk">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.
+        </p>
+        <p>Sign up <em>now</em> to get started.</p>
+      </div>
+
       <p>You <em>know</em> you want to.</p>
 
-      <form action="">
-
+      <form action="" id="signup">
         <h2>Let's do this!</h2>
 
         <div class="fName">
@@ -78,13 +83,11 @@
         <div class="submit">
           <button type="submit" class="createAccount">Create Account</button>
         </div>
-
       </form>
 
       <div id="goToLog">
         <p>Already have an account? <a href="code/login.html">Log in</a></p>
       </div>
-
     </div>
 
     <script src="code/script.js"></script>
