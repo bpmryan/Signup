@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "NorseBold";
+  src: url("../fonts/Norse-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: repeat(33.3%);
+}
+
+/* left side of the page */
+
+#leftSide {
+  background-image: url("../media/unsplash.jpg");
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#odinTitle {
+  background-color: rgba(0, 0, 0, 0.4);
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 1rem 0;
+  width: 100%;
+  margin-top: 20vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+#odinTitle h1 {
+  margin: 0;
+  font-family: "NorseBold", sans-serif;
+  font-size: 3.5rem;
+  color: white;
+}
+
+#odinTitle img {
+  height: 60px;
+  width: auto;
+}
+
+#credit {
+  color: white;
+  font: 10px;
+  font-weight: normal;
+}
+
+#credit a {
+  color: white;
+  font-weight: normal;
+}
+
+/* right side of the page */
+
+.rightSide {
+  padding: 10%;
+  margin: 5%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2,
+button {
+  font-weight: 700;
+}
+
+form {
+}
+
+#goToLog a:link {
+  color: #596d48;
+  text-decoration: none;
+}
+
+#goToLog a:visited {
+  color: #596d48;
+  text-decoration: none;
+}
+
+#goToLog a:hover,
+#goToLog a:active {
+  color: #596d48;
+  text-decoration: underline;
+}
